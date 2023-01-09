@@ -8,7 +8,7 @@ import { FaCheck } from 'react-icons/fa'
 
 const SidebarSub = () => {
   return (
-    <div className='w-[190px] h-[390px] bg-white  '>
+    <div className='w-[18rem] h-[28rem] bg-white  '>
       <div className='flex items-center m-2  bg-gray-100 border-2 border-gray-300'>
         <AiOutlineSearch size={20} className='text-gray-400' />
         <input

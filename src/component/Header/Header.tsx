@@ -5,11 +5,6 @@ import { toggleTheme } from '../Header/headerSlice'
 import { RiArrowDropDownLine, RiArrowRightSLine } from 'react-icons/ri'
 
 const Header = () => {
-  // const [darkMode, setDarkMode] = React.useState(false)
-
-  // const handleDarkModeToggle = () => {
-  //   setDarkMode(!darkMode)
-  // }
   const dispatch = useAppDispatch()
   const theme = useAppSelector((state) => state.header.darkMode)
 
@@ -23,7 +18,6 @@ const Header = () => {
         />
       </div>
       <div className='flex justify-between w-[45%] text-[0.5rem] items-center'>
-        {/* <div>&#62;</div> */}
         <div className='h-[3.5rem] overflow-hidden border-r-2'></div>
         <RiArrowRightSLine className='mr-[10rem]' />
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import Buttons from './Buttons'
+import Buttons from '../Button/Buttons'
 import StickyHeadTable from './TableData'
 import TableDataSell from './TableDataSell'
 import TradeLog from './TradeLog'

@@ -1,6 +1,6 @@
 import { useAppSelector } from './app/hooks'
 import Dashboard from './component/Dasboard'
-import Footer from './component/Footer'
+import Footer from './component/Footer/Footer'
 import Header from './component/Header/Header'
 
 function App() {
